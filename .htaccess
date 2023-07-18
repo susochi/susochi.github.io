@@ -1,0 +1,32 @@
+AddDefaultCharset UTF-8
+
+RewriteEngine On
+RewriteBase /
+
+RewriteCond %{REQUEST_FILENAME} !-f
+RewriteCond %{REQUEST_FILENAME} !-d
+RewriteCond %{REQUEST_FILENAME}.html -f
+RewriteRule ^.*$ $0.html [L,QSA]
+RewriteCond %{THE_REQUEST} ([^\s]*)\.html(\?[^\s]*)?
+RewriteRule (.*) %1 [R=301,L]
+
+Redirect 301 /SuSochi https://susochi.github.io/SuSochi
+Redirect 301 /susochi https://susochi.github.io/SuSochi
+Redirect 301 /SUSOCHI https://susochi.github.io/SuSochi
+Redirect 301 /SUsochi https://susochi.github.io/SuSochi
+Redirect 301 /SUSochi https://susochi.github.io/SuSochi
+
+Redirect 301 /SuSochi.m3u https://susochi.github.io/SuSochi
+Redirect 301 /SuSochi.M3U https://susochi.github.io/SuSochi
+Redirect 301 /susochi.m3u https://susochi.github.io/SuSochi
+Redirect 301 /SUSOCHI.m3u https://susochi.github.io/SuSochi
+Redirect 301 /SUSOCHI.M3U https://susochi.github.io/SuSochi
+Redirect 301 /SUsochi.m3u https://susochi.github.io/SuSochi
+Redirect 301 /SUsochi.M3U https://susochi.github.io/SuSochi
+Redirect 301 /SUSochi.m3u https://susochi.github.io/SuSochi
+Redirect 301 /SUSochi.M3U https://susochi.github.io/SuSochi
+
+Redirect 301 /m3u https://susochi.github.io/SuSochi
+Redirect 301 /M3U https://susochi.github.io/SuSochi
+
+RewriteRule ^/.htaccess$ - [G]
