@@ -1035,10 +1035,6 @@ https://ngtrk.dc.beltelecom.by/ngtrk/_definst_/smil:belarus3.smil/chunklist_b146
 #--- http://persik.by/stream/8682/252987/11006.m3u8
 #EXTINF:0 tvg-logo="https://i.ibb.co/qCdtkc2/Belarus3.png" tvg-id="belarus3" tvg-name="Беларусь_3" group-title="BelaRus", Беларусь 3 (in BY m3u8)
 https://mfe.svc.ott.zala.by/hls/TSNEW37RPC_HLS/variant.m3u8?version=2
-
-
-
-https://flu.vtv.by/bt4-non-by/index.m3u8
 #EXTINF:0 tvg-logo="https://i.ibb.co/ggrBBkS/Belarus4-Brest.png" tvg-id="belarus4-brest" tvg-name="Беларусь_4_Брест" group-title="BelaRus", Беларусь 4 (Брест in BY m3u8)
 https://mfe.svc.ott.zala.by/hls/CH_BELARUS4BR_HLS/variant.m3u8?version=2
 #--- http://93.125.125.250:32100/Belarus_4/playlist.m3u8
@@ -3061,7 +3057,7 @@ http://yxz.m3u8 #   (http://susochi.ga/SuSochiGa.m3u) --|++ M3U Page → https:
 # Технический сайт, со скриптами и плейлистом (sochiga.000webhostapp.com/SuSochi.m3u) закрыли за «привышение» лимита ;) в июле 2022
 # Обновления плейлиста доступны по резервному адресу –↓– reserve / копия / duplicate
 # https http://susochi.github.io/SuSochi  ←→  https://bit.ly/SOCHISU  ←→  http://bit.ly/sochisu
-# Ссылки плейлистов M3U на DropBox измененились и доступны только для скачивания файлом – https://www.dropbox.com/s/yhdmxapf30rogim/SuSochi.m3u?dl=1
+# Ссылки плейлистов M3U на DropBox изменились и доступны только для скачивания файлом – https://www.dropbox.com/s/yhdmxapf30rogim/SuSochi.m3u?dl=1
 # Устаревшие ссылки – (dl.dropbox.com/s/yhdmxapf30rogim/SuSochi.m3u)  ←→  (bit.ly/SUSOCHI)  ←→  (bit.ly/susochi)
 ### Я не занимаюсь ретрансляцией каналов: все источники трансляций (ссылки на видеопотоки)
 ### взяты исключительно из открытых источников, с сайтов или форумов.
