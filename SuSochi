@@ -1,5 +1,4 @@
-﻿<!DOCTYPE html><html lang="ru"><head><meta charset=utf-8><meta name="robots" content="index,nofollow"><meta property="og:title" content="IPTV & IP Radio PlayList Page – SuSochi.GitHub.io"></head><body><pre>
-#EXTM3U m3uautoload=1 deinterlace=1 url-tvg="https://iptvx.one/EPG" catchup="append" catchup-source="&offset=-${offset}&utcstart=${timestamp}" catchup-days="3" cache=1500
+﻿#EXTM3U m3uautoload=1 deinterlace=1 url-tvg="https://iptvx.one/EPG" catchup="append" catchup-source="&offset=-${offset}&utcstart=${timestamp}" catchup-days="3" cache=1500
 #EXTINF:0 tvg-logo="https://www.counter12.com/img-9d39BbCz4DBZ5dba-57.gif" group-title="TOP List", = = = = = = TOP List = = = v3.1.Jul.2023 = = = @SantaSU
 #-¦- https://sochisu.github.io/tester
 https://www.counter12.com/img-9d39BbCz4DBZ5dba-57.gif
@@ -119,7 +118,7 @@ http://s55766.cdn.ngenix.net/s55766-media-origin/rline_low/index.m3u8
 http://s55766.cdn.ngenix.net/s55766-media-origin/rline_high/index.m3u8
 #--- http://kprf-htlive.cdn.ngenix.net/live/_definst_/stream_high/playlist.m3u8
 #EXTINF:0 tvg-logo="https://i.ibb.co/1RRxtZv/Krasnaya-liniya.png" tvg-id="krasnaya-linia" tvg-name="Красная_линия" group-title="TOP List", Red RLine.TV (576p Em3u8)
-http://kyrohowu.akciatv.ru/iptv/7LLA8UYNEDNLEU/2147/index.m3u8
+http://kyrohowu.akciatv.ru/iptv/Z7FXPQ65UHE72P/2147/index.m3u8
 #--- http://iptv.mega.net.ru:8888/TVRU1/ID_Xtra/index.m3u8 (576p)
 #--- http://1.allnetcom.com:25461/0IoAFE867t/4pQ6zWQZh4/5171
 #EXTINF:0 tvg-logo="https://i.ibb.co/34xmwQL/MIR-24.png" tvg-id="mir-24" tvg-name="МИР_24" group-title="TOP List", Мир 24 (>m3u8)
@@ -549,7 +548,7 @@ rtmp://92.245.103.126:1935/live/live.stream
 #EXTINF:0 tvg-logo="https://i.ibb.co/jvdp87b/Turkmenistan-TV.png" tvg-id="turkmenistan" tvg-name="TurkmenTV.gov.tm" group-title="TOP List", Turkmenistan TV tuk (m3u8)
 http://alpha.tv.online.tm/hls/ch007_720/index.m3u8
 #EXTINF:0 tvg-logo="http://s3.uploads.ru/t/46EQg.png" tvg-id="uzbekistan-24" tvg-name="Uzbekistan24.uz" group-title="TOP List", Узбекистан 24 uzb/rus (Em3u8)
-http://kyrohowu.akciatv.ru/iptv/7LLA8UYNEDNLEU/2246/index.m3u8
+http://kyrohowu.akciatv.ru/iptv/Z7FXPQ65UHE72P/2246/index.m3u8
 #--- https://watch.mtrk.uz/24/24.stream/manifest.m3u8
 #--- rtmp://watch.mtrk.uz/24/24.stream (rtmp)
 #EXTINF:0 tvg-logo="https://i.ibb.co/cyqqWK4/Inter-plus.png" tvg+id="inter-ua" tvg+name="Интер" group-title="TOP List", Inter ukr/rus (ua+usa >m3u8) инагент us
@@ -620,7 +619,7 @@ http://streamvideol1.luxnet.ua/news24/smil:news24.stream.smil/chunklist_b2096000
 #EXTINF:0 tvg-logo="https://i.ibb.co/P4RnPtB/Bel-Satellite.png" tvg+id="belsat" url="Белсат" group-title="TOP List", BelСателит HD bel/rus (pl+usa m3u8) инагент р.свобода
 http://f1.stream.devkom.pro:1063/ramowka/video.m3u8
 #EXTINF:0 tvg-logo="https://i.ibb.co/P4RnPtB/Bel-Satellite.png" tvg+id="belsat" url="Белсат" group-title="TOP List", BelSatellite bel/rus (pl+usa Em3u8) инагент р.свобода
-http://kyrohowu.akciatv.ru/iptv/7LLA8UYNEDNLEU/10036/index.m3u8
+http://kyrohowu.akciatv.ru/iptv/Z7FXPQ65UHE72P/10036/index.m3u8
 #EXTINF:0 tvg-logo="https://i.ibb.co/jhXk1K4/Publika-TV.png" tvg-id="publika-tv" tvg-name="Publika_TV" group-title="TOP List", Publika mol/rus (md+ro 540p m3u8)
 https://livebeta.publika.md/LIVE/P/1000.m3u8
 #EXTINF:0 tvg-logo="https://i.ibb.co/jhXk1K4/Publika-TV.png" tvg-id="publika-tv" tvg-name="Publika_TV" group-title="TOP List", Publika mol/rus (md+ro 720p m3u8)
@@ -641,15 +640,15 @@ https://iptv-hls.idc.md/hls/2/live1.m3u8
 http://sb.err.ee/live/etvpluss.m3u8
 #+++ http://errstreams4.cdn.eurovisioncdn.net/live/etvpluss-kval2/index.m3u8
 #EXTINF:0 tvg-logo="https://i.ibb.co/zf6qzcS/ETV-plus.png" tvg-id="etv-plus-ee" tvg-name="ETV+_Эстония" group-title="TOP List", ETV+ HD Таллин rus (ee Em3u8)
-http://kyrohowu.akciatv.ru/iptv/7LLA8UYNEDNLEU/14133/index.m3u8
+http://kyrohowu.akciatv.ru/iptv/Z7FXPQ65UHE72P/14133/index.m3u8
 #EXTINF:0 tvg-logo="https://i.ibb.co/9N5Xch6/Imedi-TV.png" tvg-id="" tvg-name="Имеди_ТВ" group-title="TOP List", Imedi TV HD Тбилиси geo (ge m3u8+)
 http://tv.cdn.xsg.ge/imedihd/tracks-v1a1/mono.m3u8
 #--- http://185.36.100.33:80/imedihd/tracks-v1a1/mono.m3u8
 #--- http://188.93.95.67/imedihd/tracks-v1a1/mono.m3u8
 #EXTINF:0 tvg-logo="https://i.ibb.co/9N5Xch6/Imedi-TV.png" tvg-id="" tvg-name="Имеди_ТВ" group-title="TOP List", Imedi TV Тбилиси geo (ge Em3u8)
-http://kyrohowu.akciatv.ru/iptv/7LLA8UYNEDNLEU/2204/index.m3u8
+http://kyrohowu.akciatv.ru/iptv/Z7FXPQ65UHE72P/2204/index.m3u8
 #EXTINF:0 tvg-logo="https://i.ibb.co/f2V7BCz/AdjaraTV.png" tvg-id="ajara-tv" tvg-name="Ajara_TV" group-title="TOP List", Ajara TV Батуми geo (ge Em3u8)
-http://kyrohowu.akciatv.ru/iptv/7LLA8UYNEDNLEU/2208/index.m3u8
+http://kyrohowu.akciatv.ru/iptv/Z7FXPQ65UHE72P/2208/index.m3u8
 #--- http://bit.ly/3qZTjjJ  =  https://bit.ly/3hthLqy
 #--- http://tv.cdn.xsg.ge/adjara/tracks-v1a1/mono.m3u8
 #--- http://188.93.95.67/adjara/playlist.m3u8
@@ -845,7 +844,7 @@ http://livetv.mylifeisgood.ml/channels/discovery.m3u8
 #--- http://31.210.170.39:8084/tv/ch159/playlist.m3u8
 #--- http://178.217.72.66/225.201.2.88/tracks-v1a1/mono.m3u8
 #EXTINF:0 tvg-logo="https://i.ibb.co/m6Sxkm1/Discovery-Science.png" tvg-id="discovery-science" tvg-name="Discovery_Science" group-title="TOP List", Discovery Science (Em3u8)
-http://kyrohowu.akciatv.ru/iptv/7LLA8UYNEDNLEU/136/index.m3u8
+http://kyrohowu.akciatv.ru/iptv/Z7FXPQ65UHE72P/136/index.m3u8
 #--- http://212.73.81.237:8088/play/a00h/index.m3u8
 #--- javascript:'http://telecdn.net/discovery-science.php'.httpGet({headers:{'Referer':'http://telego919.com/'}}).match(/file:"(.*?)"/)[1] (>m3u8)
 #EXTINF:0 tvg-logo="https://i.ibb.co/m6Sxkm1/Discovery-Science.png" tvg-id="discovery-science" tvg-name="Discovery_Science" group-title="TOP List", Discovery Science HD (m3u8)
@@ -861,7 +860,7 @@ http://livetv.mylifeisgood.ml/channels/discoveryscience.m3u8
 #--- http://31.210.170.39:8084/tv/ch160/playlist.m3u8
 #--- http://178.217.72.66/225.201.2.75/tracks-v1a1/mono.m3u8
 #EXTINF:0 tvg-logo="https://i.ibb.co/PhzCpvc/Nat-Geo-Wild.png" tvg-id="nat-geo-wild" tvg-name="Nat_Geo_Wild" group-title="TOP List", Nat Geo Wild (Em3u8)
-http://kyrohowu.akciatv.ru/iptv/7LLA8UYNEDNLEU/133/index.m3u8
+http://kyrohowu.akciatv.ru/iptv/Z7FXPQ65UHE72P/133/index.m3u8
 #--- http://212.73.81.237:8088/play/a008/index.m3u8
 #-X- EXTINF:0 tvg-shift=+3 tvg-logo="https://i.ibb.co/PhzCpvc/Nat-Geo-Wild.png" tvg-id="nat-geo-wild" tvg-name="Nat_Geo_Wild" group-title="TOP List", Nat Geo Wild (-3 270p Bm3u8)
 #--- http://176.222.190.74:80/btv/SWM/NatGeo_Wild/NatGeo_Wild_270p_1200kbps.m3u8
@@ -881,7 +880,7 @@ http://kyrohowu.akciatv.ru/iptv/7LLA8UYNEDNLEU/133/index.m3u8
 #--- http://185.228.135.32:8080/tv_nat_geo_wild_hd/tracks-v1a1/index.m3u8
 #--- http://194.9.27.164:8108/play/Nat_Geo_Wild/index.m3u8
 #EXTINF:0 tvg-logo="https://i.ibb.co/nBRLksG/National-Geographic.png" tvg-id="national-geographic" tvg-name="National_Geographic_HD" group-title="TOP List", National Geographic (Em3u8)
-http://kyrohowu.akciatv.ru/iptv/7LLA8UYNEDNLEU/134/index.m3u8
+http://kyrohowu.akciatv.ru/iptv/Z7FXPQ65UHE72P/134/index.m3u8
 #--- http://212.73.81.237:8088/play/NationalGeographic/index.m3u8
 #-X- EXTINF:0 tvg-shift=+3 tvg-logo="https://i.ibb.co/nBRLksG/National-Geographic.png" tvg-id="national-geographic" tvg-name="National_Geographic_HD" group-title="TOP List", National Geographic (-3 270p Bm3u8)
 #--- http://176.222.190.74:80/btv/SWM/NatGeo_channel/NatGeo_channel_270p_1200kbps.m3u8
@@ -902,7 +901,7 @@ http://kyrohowu.akciatv.ru/iptv/7LLA8UYNEDNLEU/134/index.m3u8
 http://livetv.mylifeisgood.ml/channels/national_geographic.m3u8
 #--- http://livetv.mylifeisgood.ml/mfolive.m3u8?media=national_geographic
 #EXTINF:0 tvg-logo="https://i.ibb.co/bvpP47J/Animal-Planet.png" tvg-id="animal-planet-eu" tvg-name="Animal_Planet_Europe" group-title="TOP List", Animal Planet (Em3u8)
-http://kyrohowu.akciatv.ru/iptv/7LLA8UYNEDNLEU/137/index.m3u8
+http://kyrohowu.akciatv.ru/iptv/Z7FXPQ65UHE72P/137/index.m3u8
 #--- http://185.26.186.133:80/Animal_Planet/index.m3u8
 #--- http://213.172.73.170:8081/nimble_live/1089__Animal_Planet/playlist.m3u8
 #--- http://1.allnetcom.com:25461/0IoAFE867t/4pQ6zWQZh4/5532
@@ -1221,7 +1220,7 @@ http://v2.catcast.tv/content/40381/index.m3u8
 #--- http://_/iptv/_/18076/index.m3u8
 #EXTINF:0 tvg-logo="https://i.ibb.co/Z65br8g/Kinozal.png" tvg-id="kino18plus-tviksel" tvg-name="Кино_18+" group-title="GG & CC", КИНО 18 + HD (Em3u8) VK.com/TvikselTV
 #EXTVLCOPT:http-user-agent=SmartSDK
-http://kyrohowu.akciatv.ru/iptv/7LLA8UYNEDNLEU/18075/index.m3u8
+http://kyrohowu.akciatv.ru/iptv/Z7FXPQ65UHE72P/18075/index.m3u8
 #-X- EXTINF:0 tvg-logo="https://i.ibb.co/t8tNW9N/Music-TV.png" tvg-id="no_epg_music" tvg-name="NO_EPG_Music" group-title="GG & CC", TV12 Gudauta HD :: MUSIC (m3u8)
 #EXTVLCOPT:http-user-agent=SmartSDK
 #--- https://live.prd.dlive.tv/hls/live/tv12-gudauta.m3u8
@@ -1425,7 +1424,7 @@ http://strm.yandex.ru/kal/rtg/rtg0.m3u8
 #EXTINF:0 tvg-logo="https://i.ibb.co/xfSHVn5/Nostalgia.png" tvg-id="nostalgia" tvg-name="Ностальгия" group-title="UDP Proxy", Ностальгия (m3u8)
 http://192.162.64.99:5000/play/a02m/index.m3u8
 #EXTINF:0 tvg-logo="https://i.ibb.co/xfSHVn5/Nostalgia.png" tvg-id="nostalgia" tvg-name="Ностальгия" group-title="UDP Proxy", Ностальгия (Em3u8)
-http://kyrohowu.akciatv.ru/iptv/7LLA8UYNEDNLEU/102/index.m3u8
+http://kyrohowu.akciatv.ru/iptv/Z7FXPQ65UHE72P/102/index.m3u8
 #EXTINF:0 tvg-logo="https://i.ibb.co/xfSHVn5/Nostalgia.png" tvg-id="nostalgia" tvg-name="Ностальгия" group-title="UDP Proxy", Ностальгия (udp1-)
 http://185.134.36.99:4022/udp/234.0.0.190:2000
 #EXTINF:0 tvg-logo="https://i.ibb.co/xfSHVn5/Nostalgia.png" tvg-id="nostalgia" tvg-name="Ностальгия" group-title="UDP Proxy", Ностальгия (udp2)
@@ -1437,7 +1436,7 @@ http://192.162.64.99:5100/play/a02e/index.m3u8
 #-X- EXTINF:0 tvg-logo="https://i.ibb.co/PjRQGC7/Mosfilm.jpg" tvg-id="mosfilm" tvg-name="Мосфильм._Золотая коллекция" group-title="UDP Proxy", Мосфильм (576p Bm3u8)
 #--- http://176.222.190.74:80/btv/SWM/mosfilm/mosfilm_576p_2000kbps.m3u8
 #EXTINF:0 tvg-logo="https://i.ibb.co/PjRQGC7/Mosfilm.jpg" tvg-id="mosfilm" tvg-name="Мосфильм._Золотая коллекция" group-title="UDP Proxy", Мосфильм (Em3u8)
-http://kyrohowu.akciatv.ru/iptv/7LLA8UYNEDNLEU/6392/index.m3u8
+http://kyrohowu.akciatv.ru/iptv/Z7FXPQ65UHE72P/6392/index.m3u8
 #++- http://flu.ttk.mx:9090/Mosfilm/index.m3u8?token=orh6o
 #--- http://foreign-default.persik.by:82/livehq/Ch342/index.m3u8 (Pm3u8)
 #--- http://109.200.130.124:7007/play/a018
@@ -1480,7 +1479,7 @@ http://45.132.87.69:8080/nashelubimoe/index.m3u8
 #EXTINF:0 tvg-logo="https://i.ibb.co/Dz7b8KH/Lyubimoye-kino.png" tvg-id="lubimoe-kino" tvg-name="Любимое_кино" group-title="UDP Proxy", Любимое кино (m3u8+)
 http://192.162.64.99:5100/play/a02w/index.m3u8
 #EXTINF:0 tvg-logo="https://i.ibb.co/Dz7b8KH/Lyubimoye-kino.png" tvg-id="lubimoe-kino" tvg-name="Любимое_кино" group-title="UDP Proxy", Любимое кино (Em3u8)
-http://kyrohowu.akciatv.ru/iptv/7LLA8UYNEDNLEU/722/index.m3u8
+http://kyrohowu.akciatv.ru/iptv/Z7FXPQ65UHE72P/722/index.m3u8
 #--- http://iptv.mega.net.ru:8888/TVRU1/Lubimoe_kino/index.m3u8
 #--- http://1.allnetcom.com:25461/0IoAFE867t/4pQ6zWQZh4/5090
 #EXTINF:0 tvg-logo="https://i.ibb.co/rHBBgCw/Dom-kino.png" tvg-id="domkino" tvg-name="Дом_кино" group-title="UDP Proxy", Дом кино (>m3u8)
@@ -1736,14 +1735,14 @@ http://46.50.228.117:81/udp/239.54.5.212:1224
 http://livetv.mylifeisgood.ml/channels/anekdot.m3u8
 #--- http://livetv.mylifeisgood.ml/mfolive.m3u8?media=anekdot
 #EXTINF:0 tvg-logo="https://i.ibb.co/WVT37tf/Anekdot-TV.png" tvg-id="anekdottv" tvg-name="Анекдот_ТВ" group-title="UDP Proxy", Анекдот ТВ (Em3u8)
-http://kyrohowu.akciatv.ru/iptv/7LLA8UYNEDNLEU/5034/index.m3u8
+http://kyrohowu.akciatv.ru/iptv/Z7FXPQ65UHE72P/5034/index.m3u8
 #-X- EXTINF:0 tvg-logo="https://i.ibb.co/WVT37tf/Anekdot-TV.png" tvg-id="anekdottv" tvg-name="Анекдот_ТВ" group-title="UDP Proxy", Анекдот ТВ (576p Bm3u8)
 #--- http://176.222.190.74:80/btv/SWM/anekdot_tv/anekdot_tv_576p_2000kbps.m3u8
 #+++ https://mfe.svc.ott.zala.by/hls/CH_ANEKDOT_HLS/variant.m3u8?version=2 (only in BY m3u8)
 #EXTINF:0 tvg-logo="https://i.ibb.co/ftxxGtv/Gags-Network.png" tvg-id="gags-network" tvg-name="Gags_Network" group-title="UDP Proxy", Gags Network 16 + (m3u8)
 http://192.162.64.99:5000/play/a02j/index.m3u8
 #EXTINF:0 tvg-logo="https://i.ibb.co/ftxxGtv/Gags-Network.png" tvg-id="gags-network" tvg-name="Gags_Network" group-title="UDP Proxy", Gags Network 16 + (Em3u8)
-http://kyrohowu.akciatv.ru/iptv/7LLA8UYNEDNLEU/7142/index.m3u8
+http://kyrohowu.akciatv.ru/iptv/Z7FXPQ65UHE72P/7142/index.m3u8
 #--- http://195.158.222.7:8192/index.m3u8
 #-X- EXTINF:0 tvg-logo="https://i.ibb.co/xDMqLJj/KVN.png" tvg-id="kvn-tv" tvg-name="КВН_ТВ" group-title="MultiPleks", КВН ТВ (>m3u8–)
 #--- javascript:'http://teledays.ru/kvn-tv.php'.httpGet({headers:{'Referer':'http://teledays.net/'}}).match(/file:"(.*?)"/)[1]
@@ -1752,7 +1751,7 @@ http://95.217.196.109:8081/russia/kvn_2023/playlist.m3u8
 #--- http://iptv.mega.net.ru:8888/TVRU1/KVN_TV/index.m3u8
 #--- http://1.allnetcom.com:25461/0IoAFE867t/4pQ6zWQZh4/5138
 #EXTINF:0 tvg-logo="https://i.ibb.co/xDMqLJj/KVN.png" tvg-id="kvn-tv" tvg-name="КВН_ТВ" group-title="UDP Proxy", КВН ТВ (Em3u8)
-http://kyrohowu.akciatv.ru/iptv/7LLA8UYNEDNLEU/546/index.m3u8
+http://kyrohowu.akciatv.ru/iptv/Z7FXPQ65UHE72P/546/index.m3u8
 #EXTINF:0 tvg-logo="https://i.ibb.co/xDMqLJj/KVN.png" tvg-id="kvn-tv" tvg-name="КВН_ТВ" group-title="UDP Proxy", КВН ТВ (udp1-)
 http://185.134.36.99:4022/udp/234.0.0.233:2000
 #EXTINF:0 tvg-logo="https://i.ibb.co/xDMqLJj/KVN.png" tvg-id="kvn-tv" tvg-name="КВН_ТВ" group-title="UDP Proxy", КВН ТВ (udp2)
@@ -1829,7 +1828,7 @@ http://flu.ttk.mx:9090/Galaxy/index.m3u8?token=orh6o
 #EXTINF:0 tvg-logo="https://i.ibb.co/D8Dynyg/Galaxy-TV.png" tvg-id="galaxy-tv" tvg-name="Galaxy_TV" group-title="UDP Proxy", Galaxy TV (m3u8+)
 http://95.217.196.109:8081/russia/galaxy_2023/playlist.m3u8
 #EXTINF:0 tvg-logo="https://i.ibb.co/D8Dynyg/Galaxy-TV.png" tvg-id="galaxy-tv" tvg-name="Galaxy_TV" group-title="UDP Proxy", Galaxy TV (Em3u8)
-http://kyrohowu.akciatv.ru/iptv/7LLA8UYNEDNLEU/2010/index.m3u8
+http://kyrohowu.akciatv.ru/iptv/Z7FXPQ65UHE72P/2010/index.m3u8
 #--- http://iptv.mega.net.ru:8888/TVRU1/Galaxy_TV/index.m3u8
 #--- http://1.allnetcom.com:25461/0IoAFE867t/4pQ6zWQZh4/5562
 #EXTINF:0 tvg-logo="https://i.ibb.co/D8Dynyg/Galaxy-TV.png" tvg-id="galaxy-tv" tvg-name="Galaxy_TV" group-title="UDP Proxy", Galaxy TV (rtmp)
@@ -1957,7 +1956,7 @@ http://strm.yandex.ru/kal/start/start0.m3u8
 #+-- https://strm.yandex.ru/kal/start/start0_169_480p.json/index-v1-a1.m3u8 (480p Ym3u8)
 #--- http://1.allnetcom.com:25461/0IoAFE867t/4pQ6zWQZh4/5471  HD
 #EXTINF:0 tvg-logo="https://i.ibb.co/S30fCRS/Start.png" tvg-id="start" tvg-name="Старт" group-title="Sport TV", Старт HD (Em3u8)
-http://kyrohowu.akciatv.ru/iptv/7LLA8UYNEDNLEU/2154/index.m3u8
+http://kyrohowu.akciatv.ru/iptv/Z7FXPQ65UHE72P/2154/index.m3u8
 #--- http://iptv.mega.net.ru:8888/TVRU1/DTX/index.m3u8
 #EXTINF:0 tvg-logo="https://i.ibb.co/fxCNmDd/Football.png" tvg-id="football-ru" tvg-name="Футбол" group-title="Sport TV", Футбол (m3u8)
 http://95.217.196.109:8081/russia/futbol_sd_2023/playlist.m3u8
@@ -2212,7 +2211,7 @@ http://portal.ott.pink/watch/7045/video.m3u8?geo=auto&token=CFEADF9789D77A45B3B3
 #--- http://212.0.213.132:8082/Mir_24/index.m3u8
 #--- http://hls.youtb.workers.dev/channel/UCFzJjgVicCtFxJ5B0P_ei8A.m3u8
 #EXTINF:0 tvg-logo="http://sd.uploads.ru/t/hqmyt.png" tvg-id="no_epg_news" tvg-name="NO_EPG_News" group-title="EuroNews", Euronews rus (Em3u8)
-http://kyrohowu.akciatv.ru/iptv/7LLA8UYNEDNLEU/828/index.m3u8
+http://kyrohowu.akciatv.ru/iptv/Z7FXPQ65UHE72P/828/index.m3u8
 #--- http://persik.by/stream/1234/3/525.m3u8 (Pm3u8)
 #--- http://50.7.92.90/Euronews/mono.m3u8
 #--- http://195.245.97.133:8000/channel55.m3u8
@@ -2374,7 +2373,7 @@ javascript:'http://tvizorcdn.ru/che.php'.httpGet({headers:{'Referer':'http://tvi
 http://192.162.64.222:4000/play/a05g/index.m3u8
 #--- http://176.222.190.74:80/btv/SWM/Perec/Perec_576p_2000kbps.m3u8 (576p Bm3u8)
 #EXTINF:0 tvg-logo="https://i.ibb.co/WDN7cQg/Perets.png" tvg-id="perec-int" tvg-name="Перец" group-title="MultiPleks", Перец (Em3u8)
-http://kyrohowu.akciatv.ru/iptv/7LLA8UYNEDNLEU/15227/index.m3u8
+http://kyrohowu.akciatv.ru/iptv/Z7FXPQ65UHE72P/15227/index.m3u8
 #--- http://persik.by/stream/1234/3/10273.m3u8 (Pm3u8)
 #--- http://50.7.92.90/Peretz_int/mono.m3u8
 #--- http://195.158.222.7:8104/index.m3u8
@@ -2399,7 +2398,7 @@ http://hlsstr01.svc.iptv.rt.ru/hls/CH_PERETZ/video_800x450_avc1/variant.m3u8?ver
 #EXTINF:0 tvg-logo="https://i.ibb.co/7Q100rf/V-gostiakh-u-skazki.png" tvg-id="v-gostiax-u-skazki" tvg-name="В_гостях_у_сказки" group-title="MultiPleks", В гостях у сказки (m3u8)
 http://192.162.64.99:5100/play/a033/index.m3u8
 #EXTINF:0 tvg-logo="https://i.ibb.co/7Q100rf/V-gostiakh-u-skazki.png" tvg-id="v-gostiax-u-skazki" tvg-name="В_гостях_у_сказки" group-title="MultiPleks", В гостях у сказки (Em3u8)
-http://kyrohowu.akciatv.ru/iptv/7LLA8UYNEDNLEU/737/index.m3u8
+http://kyrohowu.akciatv.ru/iptv/Z7FXPQ65UHE72P/737/index.m3u8
 #--- http://5.128.254.228:81/udp/239.1.21.60:1234
 #--- http://78.30.254.135/1395/index.m3u8
 #--- http://83.149.14.34/out/u/v1-video-6782110.mpd
@@ -2640,7 +2639,7 @@ rtmp://5.182.231.251//2100
 #EXTVLCOPT:http-user-agent=SmartLabs
 #--- http://ott-cdn.ucom.am/s92/04.m3u8 (480p Am3u8)
 #EXTINF:0 tvg-logo="https://i.ibb.co/pwJnGkn/Zoo-TV.png" tvg-id="zootv" tvg-name="Зоо_ТВ" group-title="MultiPleks", Зоо ТВ (Em3u8)
-http://kyrohowu.akciatv.ru/iptv/7LLA8UYNEDNLEU/2100/index.m3u8
+http://kyrohowu.akciatv.ru/iptv/Z7FXPQ65UHE72P/2100/index.m3u8
 #--- http://stream01.sputnik24.tv/zootv/720p/index.m3u8
 #--- http://stream01.sputnik24.tv/zootv/240p/index.m3u8
 #--- http://5.2.58.218:81/udp/239.254.2.25:1234
@@ -2671,7 +2670,7 @@ javascript:'http://teledays.ru/zhivaya-planeta.php'.httpGet({headers:{'Referer':
 #EXTINF:0 tvg-logo="https://i.ibb.co/0sYcXCG/Zhivaya-Planeta.png" tvg-id="zhivaya-planeta" tvg-name="Живая_Планета" group-title="MultiPleks", Живая Планета (m3u8)
 http://94.158.54.107/162/tracks-v1a1/mono.m3u8
 #EXTINF:0 tvg-logo="https://i.ibb.co/0sYcXCG/Zhivaya-Planeta.png" tvg-id="zhivaya-planeta" tvg-name="Живая_Планета" group-title="MultiPleks", Живая Планета (Em3u8)
-http://kyrohowu.akciatv.ru/iptv/7LLA8UYNEDNLEU/2101/index.m3u8
+http://kyrohowu.akciatv.ru/iptv/Z7FXPQ65UHE72P/2101/index.m3u8
 #--- http://212.73.81.237:8088/play/dtx/index.m3u8
 #--- http://1.allnetcom.com:25461/0IoAFE867t/4pQ6zWQZh4/5575
 #EXTINF:0 tvg-logo="https://i.ibb.co/0sYcXCG/Zhivaya-Planeta.png" tvg-id="zhivaya-planeta" tvg-name="Живая_Планета" group-title="MultiPleks", Живая Планета (udp1)
@@ -2714,7 +2713,7 @@ javascript:'http://teledays.ru/v-mire-zhivotnykh.php'.httpGet({headers:{'Referer
 #EXTINF:0 tvg-logo="https://i.ibb.co/7k0qpMW/v-mire-zhivotnykh.png" tvg-id="v-mire-zhivotnyx-hd" tvg-name="В_мире_животных_HD" group-title="MultiPleks", В мире животных (m3u8)
 http://94.158.54.107/82/tracks-v1a1/mono.m3u8
 #EXTINF:0 tvg-logo="https://i.ibb.co/7k0qpMW/v-mire-zhivotnykh.png" tvg-id="v-mire-zhivotnyx-hd" tvg-name="В_мире_животных_HD" group-title="MultiPleks", В мире животных HD (Em3u8)
-http://kyrohowu.akciatv.ru/iptv/7LLA8UYNEDNLEU/2089/index.m3u8
+http://kyrohowu.akciatv.ru/iptv/Z7FXPQ65UHE72P/2089/index.m3u8
 #--- http://195.161.68.177:8000/play/a007/index.m3u8
 #--- http://50.7.231.221:8081/221/index.m3u8?wmsAuthSign=okad
 #EXTINF:0 tvg-logo="https://i.ibb.co/7k0qpMW/v-mire-zhivotnykh.png" tvg-id="v-mire-zhivotnyx-hd" tvg-name="В_мире_животных_HD" group-title="MultiPleks", В мире животных HD (rtmp)
@@ -3001,7 +3000,7 @@ rtmp://5.182.231.251//2086
 #--- http://95.217.196.109:8081/russia/rtvi_2023/playlist.m3u8
 #EXTINF:0 tvg-logo="https://i.ibb.co/Ng02B58/RTVi.png" tvg-id="rtvi" tvg-name="RTVi" group-title="MultiPleks", RTVi rus (il Em3u8)
 #EXTVLCOPT:http-user-agent=SmartLabs
-http://kyrohowu.akciatv.ru/iptv/7LLA8UYNEDNLEU/2086/index.m3u8
+http://kyrohowu.akciatv.ru/iptv/Z7FXPQ65UHE72P/2086/index.m3u8
 #--- https://bit.ly/3fTCeTC  =  https://tinyurl.com/bdzj44b3
 #--- http://85.132.53.56/russia/rtvi/playlist.m3u8
 #--- http://tv.cdn.xsg.ge/rtvi/tracks-v1a1/mono.m3u8 (ge m3u8)
@@ -3011,7 +3010,7 @@ http://kyrohowu.akciatv.ru/iptv/7LLA8UYNEDNLEU/2086/index.m3u8
 #EXTINF:0 tvg-logo="https://i.ibb.co/NLY72WC/9-kanal.png" tvg-id="9kanal-israel" tvg-name="9_канал_Израиль" group-title="MultiPleks", 9 канал rus (il >m3u8)
 javascript:'http://cdntvpotok.com/onnet/9-kanal-izrail.php'.httpGet({headers:{'Referer':'http://only-tv.org/'}}).match(/file:"(.*?)"/)[1]
 #EXTINF:0 tvg-logo="https://i.ibb.co/NLY72WC/9-kanal.png" tvg-id="9kanal-israel" tvg-name="9_канал_Израиль" group-title="MultiPleks", 9 канал rus (il Em3u8)
-http://kyrohowu.akciatv.ru/iptv/7LLA8UYNEDNLEU/2331/index.m3u8
+http://kyrohowu.akciatv.ru/iptv/Z7FXPQ65UHE72P/2331/index.m3u8
 #--- http://50.7.231.221:8081/185/index.m3u8?wmsAuthSign=okad
 #--- http://74.102.118.117:8812/udp/127.0.0.1:5306
 #--- http://185.228.135.32:8080/tv_9_kanal_izrael_hd/tracks-v1a1/index.m3u8
@@ -3062,4 +3061,3 @@ http://yxz.m3u8 #   (http://susochi.ga/SuSochiGa.m3u) --|++ M3U Page → https:
 ### Help – Ƀ   1HErW1F7Qs4hZKHrokfBXFLmXtWviK88pa
 ### Помочь – ₽ https://yoomoney.ru/to/410013694885719
 ### Радио и ТВ https://SochiSU.GitHub.io   (SuSochi.Ga) -X- НЕ РАБОТАЕТ, support freenom – регистратора домена, даже не отвечает на письма !
-</pre></body></html>
