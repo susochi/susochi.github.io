@@ -1,7 +1,7 @@
 ﻿<!DOCTYPE html><html lang="ru"><head><meta charset=utf-8><meta name="robots" content="index,nofollow"><meta property="og:title" content="IPTV & IP Radio PlayList Page – SuSochi.GitHub.io"></head><body><pre>
 #EXTM3U m3uautoload=1 deinterlace=1 url-tvg="https://iptvx.one/EPG" catchup="append" catchup-source="&offset=-${offset}&utcstart=${timestamp}" catchup-days="3" cache=1500
-#EXTINF:0 tvg-logo="https://www.counter12.com/img-9d39BbCz4DBZ5dba-57.gif" group-title="TOP List", = = = = = = TOP List = = = v3.Jul.2023 = = = @SantaSU
-#-¦- http://susochi.ga/tester -X-
+#EXTINF:0 tvg-logo="https://www.counter12.com/img-9d39BbCz4DBZ5dba-57.gif" group-title="TOP List", = = = = = = TOP List = = = v3.1.Jul.2023 = = = @SantaSU
+#-¦- https://sochisu.github.io/tester
 https://www.counter12.com/img-9d39BbCz4DBZ5dba-57.gif
 #-¦- <img src="https://www.counter12.com/img-9d39BbCz4DBZ5dba-57.gif">
 #EXTINF:0 tvg-logo="https://i.ibb.co/wzMk5hT/STRK-Sochi.png" tvg-id="strk" tvg-name="СТРК" group-title="TOP List", СТРК Сочи
@@ -397,51 +397,48 @@ http://zabava-htlive.cdn.ngenix.net/hls/CH_RUSSIA24/video_800x450_avc1/variant.m
 #EXTINF:0 tvg-logo="https://i.ibb.co/PzKsxsG/Russia-Today-Doc.png" tvg-id="rtd-ru" tvg-name="Russia_Today_Doc." group-title="TOP List", Russia Today HD (m3u8)
 #EXTVLCOPT:http-user-agent=SmartLabs
 http://rtmp.api.rt.com/hls/rtdru.m3u8
-#EXTINF:0 tvg-logo="https://i.ibb.co/PzKsxsG/Russia-Today-Doc.png" tvg-id="rtd-ru" tvg-name="Russia_Today_Doc." group-title="TOP List", Russia Today HD (m3u8+)
+#--- http://cdn-01.bonus-tv.ru:8080/rtdoc/playlist.m3u8
+#EXTINF:0 tvg-logo="https://i.ibb.co/PzKsxsG/Russia-Today-Doc.png" tvg-id="rtd-ru" tvg-name="Russia_Today_Doc." group-title="TOP List", Russia Today (auto m3u8)
+http://rt-rtd.rttv.com/dvr/rtdoc/playlist.m3u8
+#EXTINF:0 tvg-logo="https://i.ibb.co/PzKsxsG/Russia-Today-Doc.png" tvg-id="rtd-ru" tvg-name="Russia_Today_Doc." group-title="TOP List", Russia Today (360p m3u8)
+http://rt-rtd.rttv.com/dvr/rtdoc/playlist_800Kb.m3u8
 #EXTVLCOPT:http-user-agent=SmartLabs
-http://cdn-01.bonus-tv.ru:8080/rtdoc/playlist.m3u8
-#-X- EXTINF:0 tvg-logo="https://i.ibb.co/PzKsxsG/Russia-Today-Doc.png" tvg-id="rtd-ru" tvg-name="Russia_Today_Doc." group-title="TOP List", Russia Today (240p m3u8)
-#EXTVLCOPT:http-user-agent=SmartLabs
-#+-- https://rtmp.api.rt.com/hls/rtdru240.m3u8
-#+-- http://cdn-01.bonus-tv.ru:8080/rtdoc/tracks-v5a1/index.m3u8
-#-X- EXTINF:0 tvg-logo="https://i.ibb.co/PzKsxsG/Russia-Today-Doc.png" tvg-id="rtd-ru" tvg-name="Russia_Today_Doc." group-title="TOP List", Russia Today (360p m3u8)
-#EXTVLCOPT:http-user-agent=SmartLabs
+#+-- https://rtmp.api.rt.com/hls/rtdru240.m3u8 (240p m3u8)
 #+-- https://rtmp.api.rt.com/hls/rtdru360.m3u8
-#+-- http://cdn-01.bonus-tv.ru:8080/rtdoc/tracks-v4a1/index.m3u8
-#-X- EXTINF:0 tvg-logo="https://i.ibb.co/PzKsxsG/Russia-Today-Doc.png" tvg-id="rtd-ru" tvg-name="Russia_Today_Doc." group-title="TOP List", Russia Today (720p m3u8)
+#--- http://cdn-01.bonus-tv.ru:8080/rtdoc/tracks-v5a1/index.m3u8 (240p m3u8)
+#--- http://cdn-01.bonus-tv.ru:8080/rtdoc/tracks-v4a1/index.m3u8
+#--- http://cdn-01.bonus-tv.ru:8080/rtdoc/tracks-a1/index.m3u8 (audio m3u8)
+#EXTINF:0 tvg-logo="https://i.ibb.co/PzKsxsG/Russia-Today-Doc.png" tvg-id="rtd-ru" tvg-name="Russia_Today_Doc." group-title="TOP List", Russia Today (720p m3u8)
+http://rt-rtd.rttv.com/dvr/rtdoc/playlist_2500Kb.m3u8
 #EXTVLCOPT:http-user-agent=SmartLabs
-#+-- https://rtmp.api.rt.com/hls/rtdru.m3u8
-#+-- http://cdn-01.bonus-tv.ru:8080/rtdoc/tracks-v2a1/index.m3u8
-#EXTINF:0 tvg-logo="https://i.ibb.co/PzKsxsG/Russia-Today-Doc.png" tvg-id="rtd-ru" tvg-name="Russia_Today_Doc." group-title="TOP List", Russia Today (audio m3u8)
-#EXTVLCOPT:http-user-agent=SmartLabs
-http://cdn-01.bonus-tv.ru:8080/rtdoc/tracks-a1/index.m3u8
-#EXTINF:0 tvg-logo="https://i.ibb.co/dtX2rMd/Russia-Today.png" tvg-id="russia-today" tvg-name="Russia_Today" group-title="TOP List", RT News HD eng (m3u8) 
+#--- http://cdn-01.bonus-tv.ru:8080/rtdoc/tracks-v2a1/index.m3u8
+#EXTINF:0 tvg-logo="https://i.ibb.co/dtX2rMd/Russia-Today.png" tvg-id="russia-today" tvg-name="Russia_Today" group-title="TOP List", RT News eng (auto m3u8)
 http://rt-glb.rttv.com/live/rtnews/playlist.m3u8
+#EXTVLCOPT:http-user-agent=SmartLabs
+#--- http://cdn-01.bonus-tv.ru:8080/RussiaToday/playlist.m3u8
 #--- https://rt-glb.gcdn.co/live/rtnews/playlist.m3u8
 #--- https://rt-news.secure.footprint.net/1103.m3u8
-#EXTINF:0 tvg-logo="https://i.ibb.co/dtX2rMd/Russia-Today.png" tvg-id="russia-today" tvg-name="Russia_Today" group-title="TOP List", RT News HD eng (m3u8+)
-#EXTVLCOPT:http-user-agent=SmartLabs
-http://cdn-01.bonus-tv.ru:8080/RussiaToday/playlist.m3u8
-#-X- EXTINF:0 tvg-logo="https://i.ibb.co/dtX2rMd/Russia-Today.png" tvg-id="russia-today" tvg-name="Russia_Today" group-title="TOP List", RT News eng (360p m3u8) 
+#EXTINF:0 tvg-logo="https://i.ibb.co/dtX2rMd/Russia-Today.png" tvg-id="russia-today" tvg-name="Russia_Today" group-title="TOP List", RT News eng (360p m3u8) 
+http://rt-glb.rttv.com/dvr/rtnews/playlist_800Kb.m3u8
 #--- https://rt-glb.gcdn.co/live/rtnews/playlist_800Kb.m3u8
 #--- https://rt-news.secure.footprint.net/1103_800Kb.m3u8
 #EXTVLCOPT:http-user-agent=SmartLabs
-#+-- http://cdn-01.bonus-tv.ru:8080/RussiaToday/tracks-v5a1/index.m3u8
-#-X- EXTINF:0 tvg-logo="https://i.ibb.co/dtX2rMd/Russia-Today.png" tvg-id="russia-today" tvg-name="Russia_Today" group-title="TOP List", RT News eng (540p m3u8)
+#--- http://cdn-01.bonus-tv.ru:8080/RussiaToday/tracks-v5a1/index.m3u8
+#--- http://cdn-01.bonus-tv.ru:8080/RussiaToday/tracks-a1/index.m3u8 (audio m3u8)
+#--- https://rt-glb.gcdn.co/live/rtnews/playlist_64Kb.m3u8
+#--- https://rt-news.secure.footprint.net/1103_64Kb.m3u8
+#EXTINF:0 tvg-logo="https://i.ibb.co/dtX2rMd/Russia-Today.png" tvg-id="russia-today" tvg-name="Russia_Today" group-title="TOP List", RT News eng (540p m3u8)
+http://rt-glb.rttv.com/dvr/rtnews/playlist_1600Kb.m3u8
 #--- https://rt-glb.gcdn.co/live/rtnews/playlist_1600Kb.m3u8
 #--- https://rt-news.secure.footprint.net/1103_1600Kb.m3u8
 #EXTVLCOPT:http-user-agent=SmartLabs
-#+-- http://cdn-01.bonus-tv.ru:8080/RussiaToday/tracks-v3a1/index.m3u8
-#-X- EXTINF:0 tvg-logo="https://i.ibb.co/dtX2rMd/Russia-Today.png" tvg-id="russia-today" tvg-name="Russia_Today" group-title="TOP List", RT News eng (720p m3u8)
+#--- http://cdn-01.bonus-tv.ru:8080/RussiaToday/tracks-v3a1/index.m3u8
+#EXTINF:0 tvg-logo="https://i.ibb.co/dtX2rMd/Russia-Today.png" tvg-id="russia-today" tvg-name="Russia_Today" group-title="TOP List", RT News eng (720p m3u8)
+http://rt-glb.rttv.com/dvr/rtnews/playlist_2500Kb.m3u8
 #--- https://rt-glb.gcdn.co/live/rtnews/playlist_2500Kb.m3u8
 #--- https://rt-news.secure.footprint.net/1103_2500Kb.m3u8
 #EXTVLCOPT:http-user-agent=SmartLabs
-#+-- http://cdn-01.bonus-tv.ru:8080/RussiaToday/tracks-v2a1/index.m3u8
-#EXTINF:0 tvg-logo="https://i.ibb.co/dtX2rMd/Russia-Today.png" tvg-id="russia-today" tvg-name="Russia_Today" group-title="TOP List", RT News eng (audio m3u8)
-#EXTVLCOPT:http-user-agent=SmartLabs
-http://cdn-01.bonus-tv.ru:8080/RussiaToday/tracks-a1/index.m3u8
-#--- https://rt-glb.gcdn.co/live/rtnews/playlist_64Kb.m3u8
-#--- https://rt-news.secure.footprint.net/1103_64Kb.m3u8
+#--- http://cdn-01.bonus-tv.ru:8080/RussiaToday/tracks-v2a1/index.m3u8
 #EXTINF:0 tvg-logo="http://s5.uploads.ru/t/TXb5J.png" tvg-id="no_epg_news" tvg-name="NO_EPG_News" group-title="TOP List", TeleSUR TV spa (ve 360p m3u8) 
 http://cdnesmain.telesur.ultrabase.net/mbliveMain/360p/playlist.m3u8
 #EXTINF:0 tvg-logo="http://s5.uploads.ru/t/TXb5J.png" tvg-id="no_epg_news" tvg-name="NO_EPG_News" group-title="TOP List", TeleSUR TV spa (ve 480p m3u8)
@@ -776,8 +773,8 @@ http://95.217.196.109:8081/russia/365_sd_2023/playlist.m3u8
 #--- http://188.93.95.67/365day/playlist.m3u8
 #--- http://imedi-tv.cdn.xsg.ge/365day/tracks-v1a1/mono.m3u8
 #--- http://178.217.72.66/225.201.2.175/tracks-v1a1/mono.m3u8
-#EXTINF:0 tvg-logo="https://i.ibb.co/WHY10Wn/Istoriya.png" tvg-id="istoria" tvg-name="История" group-title="TOP List", История (>m3u8)
-javascript:'http://cdntvpotok.com/onnet/istoriya.php'.httpGet({headers:{'Referer':'http://only-tv.org/'}}).match(/file:"(.*?)"/)[1]
+#-X- EXTINF:0 tvg-logo="https://i.ibb.co/WHY10Wn/Istoriya.png" tvg-id="istoria" tvg-name="История" group-title="TOP List", История (>m3u8)
+#--- javascript:'http://cdntvpotok.com/onnet/istoriya.php'.httpGet({headers:{'Referer':'http://only-tv.org/'}}).match(/file:"(.*?)"/)[1]
 #EXTINF:0 tvg-logo="https://i.ibb.co/WHY10Wn/Istoriya.png" tvg-id="istoria" tvg-name="История" group-title="TOP List", История (m3u8)
 http://192.162.64.99:5000/play/a026/index.m3u8
 #--- http://hlstv.kem.211.ru/239.211.211.55/stream.m3u8
@@ -946,7 +943,7 @@ http://retc.educom.ru/mosobrtv/tv2/index.m3u8
 #EXTINF:0 tvg-logo="https://i.ibb.co/PQTtd7R/Moskovsky-obrazovatelny.png" tvg-id="moskovsky-obrazovatelny" tvg-name="Московский_образовательный" group-title="TOP List", Московский образовательный (720p m3u8)
 http://retc.educom.ru/mosobrtv/tv1/index.m3u8
 #EXTINF:0 tvg-logo="https://i.ibb.co/PgkpS5N/zero.png" group-title="BelaRus", = = = = = = BelaRus = = for BY – bit.ly/m3uZala
-http://susochi.ga/belarus -X-
+https://sochisu.github.io/belarus
 #EXTINF:0 tvg-logo="https://i.ibb.co/GRz2b5X/STV-BY.png" tvg-id="stv-by" tvg-name="СТВ" group-title="BelaRus", СТВ (m3u8)
 https://ngtrk.dc.beltelecom.by/ctv/_definst_/ctv.stream/chunklist.m3u8
 #--- http://212.98.171.116/HLS/ctvby/playlist.m3u8
@@ -1113,7 +1110,7 @@ rtmp://5.182.231.251//2185
 #EXTVLCOPT:http-user-agent=SmartLabs
 #--- http://93.125.125.250:32100/MinskTV/playlist.m3u8
 #EXTINF:0 tvg-logo="https://i.ibb.co/PgkpS5N/zero.png" group-title="GG & CC", = = = = = = GG & CC = = = = = = = = = = = = 
-http://susochi.ga/htm5 -X-
+https://sochisu.github.io/htm5
 #EXTINF:0 tvg-logo="https://i.ibb.co/Z65br8g/Kinozal.png" tvg-id="no_epg_cinema" tvg-name="NO_EPG_Cinema" group-title="GG & CC", PZN Streams HD (m3u8) GG/PZN_Films
 #EXTVLCOPT:http-user-agent=SmartSDK
 http://hlss.goodgame.ru/hls/180960.m3u8
@@ -1375,7 +1372,7 @@ http://hls.goodgame.ru/hls/157239.m3u8
 #EXTVLCOPT:http-user-agent=SmartSDK
 http://hls.goodgame.ru/hls/157239_480.m3u8
 #EXTINF:0 tvg-logo="https://i.ibb.co/PgkpS5N/zero.png" group-title="UDP Proxy", = = = = = = UDP Proxy = = = = = = = = = = = = 
-http://susochi.ga/editor -X-
+https://sochisu.github.io/editor
 #EXTINF:0 tvg-logo="https://i.ibb.co/TTkdPr7/Moya-Planeta.png" tvg-id="moya-planeta" tvg-name="Моя_Планета" group-title="UDP Proxy", Моя Планета (>m3u8)
 javascript:'http://cdntvpotok.com/onnet/moya-planeta.php'.httpGet({headers:{'Referer':'http://only-tv.org/'}}).match(/file:"(.*?)"/)[1]
 #EXTINF:0 tvg-logo="https://i.ibb.co/TTkdPr7/Moya-Planeta.png" tvg-id="moya-planeta" tvg-name="Моя_Планета" group-title="UDP Proxy", Моя Планета (m3u8)
@@ -1953,7 +1950,7 @@ http://178.163.49.214:4022/udp/234.0.0.247:2000
 #EXTINF:0 tvg-logo="https://i.ibb.co/sWGhMVV/Techno-24.png" tvg-id="texno-24" tvg-name="Техно_24" group-title="UDP Proxy", Техно 24 (udp3)
 http://178.163.91.1:4022/udp/234.0.0.247:2000
 #EXTINF:0 tvg-logo="https://i.ibb.co/PgkpS5N/zero.png" group-title="Sport TV", = = = = = = Sport TV = = = = = = = = = = = = 
-http://susochi.ga/link -X-
+https://sochisu.github.io/link
 #EXTINF:0 tvg-logo="https://i.ibb.co/S30fCRS/Start.png" tvg-id="start" tvg-name="Старт" group-title="Sport TV", Старт HD (Ym3u8)
 http://strm.yandex.ru/kal/start/start0.m3u8
 #+-- https://strm.yandex.ru/kal/start/start0_169_1080p.json/index-v1-a1.m3u8 (1080p Ym3u8)
@@ -2209,7 +2206,7 @@ http://95.217.196.109:8081/russia/eurosport2_hd_2023/playlist.m3u8
 #--- https://bal.varcdn.top/Eurosport2/tracks-v1a1/mono.m3u8 HD
 #--- http://50.7.92.90/Eurosport_2_HD/mono.m3u8 HD
 #EXTINF:0 tvg-logo="https://i.ibb.co/PgkpS5N/zero.png" group-title="EuroNews", = = = = = = EuroNews = = = = = = = = = = = = 
-http://susochi.ga/euronews -X-
+https://sochisu.github.io/euronews -X-
 #EXTINF:0 tvg-logo="http://sd.uploads.ru/t/hqmyt.png" tvg-id="no_epg_news" tvg-name="NO_EPG_News" group-title="EuroNews", Euronews rus (m3u8)
 http://portal.ott.pink/watch/7045/video.m3u8?geo=auto&token=CFEADF9789D77A45B3B359EE168CCCA6
 #--- http://212.0.213.132:8082/Mir_24/index.m3u8
@@ -2237,7 +2234,7 @@ https://sc.id-tv.kz:443/Euronews.m3u8
 #--- http://evronovosti.mediacdn.ru/sr1/evronovosti/playlist_1m.m3u8 (360p m3u8)
 #--- http://evronovosti.mediacdn.ru/sr1/evronovosti/playlist_2m.m3u8 (540p m3u8)
 #EXTINF:0 tvg-logo="https://i.ibb.co/PgkpS5N/zero.png" group-title="DNR+LNR", = = = = = = DNR+LNR = = = = = = = = = = = = 
-http://susochi.ga/timer -X-
+https://sochisu.github.io/timer
 #EXTINF:0 tvg-logo="http://s8.uploads.ru/t/yzdhn.jpg" tvg-id="" tvg-name="Луганск_24" url="gtrkLNR.com" group-title="DNR+LNR", Луганск 24 (m3u8) 
 #EXTVLCOPT:http-user-agent=SmartLabs
 http://tv.gtrklnr.ru/hls/Lugansk24.m3u8
@@ -2270,7 +2267,8 @@ http://ott.inmart.tv:8081/35/index.m3u8
 #EXTVLCOPT:http-user-agent=SmartLabs
 https://goodgame.ru/chat/54105
 #--- http://hls.goodgame.ru/hls/54105.m3u8
-#+++ https://vk.com/video291581117_456242969
+#+++ https://vk.com/video291581117_456243405
+#--- https://vk.com/video291581117_456242969
 #--- https://vk.com/video291581117_456242965
 #+++ https://ok.ru/video/4309412224625   https://ok.ru/videoembed/4309412224625
 #--- https://ok.ru/video/2326442286705
@@ -2279,9 +2277,9 @@ https://goodgame.ru/chat/54105
 #-X- EXTINF:0 tvg-logo="https://i.ibb.co/Y7Ln3X1/DV-stream.png" tvg-id="no_epg_news" tvg-name="NO_EPG_News" group-title="DNR+LNR", UncleVania.ru (OK) https://ok.ru/video/4309412224625
 #EXTVLCOPT:http-user-agent=SmartLabs
 #+++ https://ok.ru/video/4309412224625
-#-X- EXTINF:0 tvg-logo="https://i.ibb.co/Y7Ln3X1/DV-stream.png" tvg-id="no_epg_news" tvg-name="NO_EPG_News" group-title="DNR+LNR", DV STREAM (VK) https://vk.com/video291581117_456242969
+#-X- EXTINF:0 tvg-logo="https://i.ibb.co/Y7Ln3X1/DV-stream.png" tvg-id="no_epg_news" tvg-name="NO_EPG_News" group-title="DNR+LNR", DV STREAM (VK) https://vk.com/video291581117_456243405
 #EXTVLCOPT:http-user-agent=SmartLabs
-#+++ https://vk.com/video291581117_456242969
+#+++ https://vk.com/video291581117_456243405
 #-X- EXTINF:0 tvg-logo="https://i.ibb.co/Y7Ln3X1/DV-stream.png" tvg-id="no_epg_news" tvg-name="NO_EPG_News" group-title="DNR+LNR", DV STREAM (Twitch) https://cutt.ly/RAlaozs
 #EXTVLCOPT:http-user-agent=SmartLabs
 #+++ https://player.twitch.tv/?channel=dv_stream_reserv&enableExtensions=true&muted=false&parent=twitch.tv&player=popout&volume=1
@@ -2289,7 +2287,7 @@ https://goodgame.ru/chat/54105
 #EXTVLCOPT:http-user-agent=SmartLabs
 #+++ https://t.me/gnoma77?livestream  https://t.me/dv_stream
 #EXTINF:0 tvg-logo="https://i.ibb.co/PgkpS5N/zero.png" group-title="MultiPleks", = = = = = = MultiPleks = = = = = = = = = = = = 
-http://susochi.ga/torrent -X-
+https://sochisu.github.io/torrent -X-
 #EXTINF:0 tvg-logo="https://i.ibb.co/s3Jn90J/OTR.png" tvg-id="otr" tvg-name="ОТР" group-title="MultiPleks", ОТР (Zm3u8)
 #EXTVLCOPT:http-user-agent=WINK/1.34.1
 http://zabava-htlive.cdn.ngenix.net/hls/CH_OTR/variant.m3u8?version=2
@@ -3028,7 +3026,7 @@ http://kyrohowu.akciatv.ru/iptv/7LLA8UYNEDNLEU/2331/index.m3u8
 #EXTINF:0 tvg-logo="https://i.ibb.co/N2MSbDs/Tom-and-Jerry.png" tvg-id="no_epg_mult" tvg-id="tom-jerry" tvg-name="NO_EPG_Mult" group-title="MultiPleks", Tom and Jerry ( ! для SimpleTV )
 rtmp://5.8.52.88/live/tomdj$OPT:avio-options={rtmp_pageurl=http://ovego.tv/}
 #EXTINF:0 tvg-logo="https://i.ibb.co/PgkpS5N/zero.png" group-title="Info", = = = = = = Info = = = = = = = = = = = = = = 
-http://susochi.ga/info -X-
+https://sochisu.github.io/info
 #EXTINF:0 tvg-logo="https://i.ibb.co/PgkpS5N/zero.png" group-title="Info", TeleProg – Kartina.TV/epg (VPN)
 http://xyz.m3u8 #   https://kartina.tv/epg
 #EXTINF:0 tvg-logo="https://i.ibb.co/PgkpS5N/zero.png" group-title="Info", (>m3u8) – bit.ly/IpTvPortable501zip
@@ -3043,7 +3041,7 @@ http://xxy.m3u8 #   IPTV.gen12.net   https://bit.ly/2rJhY1L – For Windows (�
 http://yzx.m3u8 #   VideoLan.org
 # 4pda.ru = https://4pda.to/forum/index.php?showtopic=253883 – MX Player for Android
 # 4pda.ru = https://4pda.to/forum/index.php?showtopic=268247 – VLC for Android
-#EXTINF:0 tvg-logo="https://i.ibb.co/PgkpS5N/zero.png" group-title="Info", MultiPleks(ru) ± Regions – bit.ly/2ShVnjT
+#EXTINF:0 tvg-logo="https://i.ibb.co/PgkpS5N/zero.png" group-title="Info", MultiPleks(ru) ± Regions – bit.ly/ZrTVm3u
 http://xzy.m3u8 #   https://pastebin.com/4h7hGHKr   http://bit.ly/2ShVnjT   https://is.gd/ZrTVm3u (VPN)
 # ↑↓ MultiPleks(ru) — zabava РТ wink + Regions & Free UHD (¹8⁺)
 #EXTINF:0 tvg-logo="https://i.ibb.co/PgkpS5N/zero.png" group-title="Info", PlayList for TV+HD (устарел) – bit.ly/2RW35Ag
@@ -3056,10 +3054,9 @@ http://xzx.m3u8 #   HTML cтр. плейлиста на GitHub.com → https://
 http://yxz.m3u8 #   (http://susochi.ga/SuSochiGa.m3u) --|++ M3U Page → https://vk.com/page-6876882_56548330
 # Плейлист (sites.google.com/site/susochi/SuSochi.Ga.m3u) на Гугле не обновляется с версии 05.07.2021_4 по причине постепенного закрытия старых классических Сайтов Google. Возможность редактировать сайт и изменять файлы - отключена!
 # Технический сайт, со скриптами и плейлистом (sochiga.000webhostapp.com/SuSochi.m3u) закрыли за «привышение» лимита ;) в июле 2022
-# Обновления плейлиста доступны по резервному адресу –↓– reserve / копия / duplicate
+# Обновления плейлиста доступны по резервным адресам –↓– reserve / копия / duplicate
 # https http://susochi.github.io/SuSochi  ←→  https://bit.ly/SOCHISU  ←→  http://bit.ly/sochisu
-# Ссылки плейлистов M3U на DropBox изменились и доступны только для скачивания файлом – https://www.dropbox.com/s/yhdmxapf30rogim/SuSochi.m3u?dl=1
-# Устаревшие ссылки – (dl.dropbox.com/s/yhdmxapf30rogim/SuSochi.m3u)  ←→  (bit.ly/SUSOCHI)  ←→  (bit.ly/susochi)
+# https http://dl.dropbox.com/s/yhdmxapf30rogim/SuSochi.m3u  ←→  https://bit.ly/SUSOCHI  ←→  http://bit.ly/susochi
 ### Я не занимаюсь ретрансляцией каналов: все источники трансляций (ссылки на видеопотоки)
 ### взяты исключительно из открытых источников, с сайтов или форумов.
 ### Help – Ƀ   1HErW1F7Qs4hZKHrokfBXFLmXtWviK88pa
