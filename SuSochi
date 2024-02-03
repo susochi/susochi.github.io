@@ -1,7 +1,7 @@
 ﻿#EXTM3U m3uautoload=1 deinterlace=1 url-tvg="https://iptvx.one/EPG" catchup="append" catchup-source="&offset=-${offset}&utcstart=${timestamp}" catchup-days="3" cache=1500
-#EXTINF:0 tvg-logo="https://www.counter12.com/img-9d39BbCz4DBZ5dba-57.gif" group-title="TOP List", = = = = = = TOP List = = = v1.Jan.2024 = = = @SantaSU
+#EXTINF:0 tvg-logo="https://www.counter12.com/img-9d39BbCz4DBZ5dba-57.gif" group-title="TOP List", = = = = = = TOP List = = = v1.Feb.2024 = = = @SantaSU
 #+++ Вася Обломов - Письмо Санта-Клаусу https://youtube.com/v/MHB7Gn99AII
-#+++ Радио АВРОРА 6.0 - Подписаться https://youtube.com/@radioaurora_6.0?sub_confirmation=1
+#+++ Радио АВРОРА | Дзен - https://dzen.ru/aurora_network
 #+++ Дневник Депутата - Подписаться https://youtube.com/@bondarenko_blog?sub_confirmation=1
 #+++ Константин Сёмин - Subscribe » https://youtube.com/@Agit_Prop?sub_confirmation=1
 #+++ Красный проект Red - Подписаться https://youtube.com/@red_project?sub_confirmation=1
@@ -9,7 +9,7 @@
 #+++ Red History Live - Subscribe » https://youtube.com/@redhistorylive?sub_confirmation=1
 #+++ Александр Колпакиди ↑↓
 #+++ Красная История - Подписаться https://youtube.com/@redhistory?sub_confirmation=1
-#+++ Евгений Спицын - Подписаться https://youtube.com/@SpicynEY?sub_confirmation=1
+#--- Евгений Спицын - Подписаться https://youtube.com/@SpicynEY - Dzen.ru/b/Zbp8rJvJLjFt2_NJ
 #+++ Красная Линия - Подписаться https://youtube.com/@rlinetv?sub_confirmation=1
 #+++ Вестник Бури - Подписаться https://youtube.com/@Vestnik_Buri?sub_confirmation=1
 #+++ Левый Фронт - Подписаться https://youtube.com/@leftfront3017?sub_confirmation=1
@@ -713,12 +713,14 @@ http://nashe1.hostingradio.ru/nashe20-128.mp3
 http://aska.ru-hoster.com:8006/stream
 #EXTINF:0 tvg-logo="https://i.ibb.co/T48m89q/Nashe-TV.png" tvg-id="" tvg-name="Неслучайное_Радио" url="NesRadio.101.ru" group-title="TOP List", Неслучайное (64k) 101.ru
 #EXTVLCOPT:http-user-agent=SmartLabs
-http://ic7.101.ru:8000/stream/personal/aacp/64/499389
-#+++ http://pub0202.101.ru:8000/stream/personal/aacp/64/499389
+http://pub0102.101.ru:8000/stream/personal/aacp/64/499389
+#--- http://ic7.101.ru:8000/stream/personal/aacp/64/499389
+#--- http://pub0202.101.ru:8000/stream/personal/aacp/64/499389
 #EXTINF:0 tvg-logo="https://i.ibb.co/T48m89q/Nashe-TV.png" tvg-id="" tvg-name="Радио_Вечная_Молодость" url="NesRadio2.101.ru" group-title="TOP List", Вечная Молодость (64k) 101.ru
 #EXTVLCOPT:http-user-agent=SmartLabs
-http://ic7.101.ru:8000/stream/personal/aacp/64/700117
-#+++ http://pub0202.101.ru:8000/stream/personal/aacp/64/700117
+http://pub0102.101.ru:8000/stream/personal/aacp/64/700117
+#--- http://ic7.101.ru:8000/stream/personal/aacp/64/700117
+#--- http://pub0202.101.ru:8000/stream/personal/aacp/64/700117
 #-X- EXTINF:0 tvg-logo="https://i.ibb.co/T48m89q/Nashe-TV.png" tvg-id="" tvg-name="Виктор_Цой_(Кино)_Радио" url="PCRadio.ru/radio/viktor-coy-kino" group-title="TOP List", Цой КИНО (128k) PCRadio.ru
 #EXTVLCOPT:http-user-agent=pcradio
 #--- http://95.216.21.120:8000/gr_Kino-hi
@@ -740,7 +742,7 @@ http://ic7.101.ru:8000/stream/pro/aac/64/103
 #EXTVLCOPT:http-user-agent=SmartLabs
 http://ic7.101.ru:8000/stream/pro/aac/64/58
 #+++ http://pub0202.101.ru:8000/stream/pro/aac/64/58
-#-X- EXTINF:0 tvg-logo="https://sun9-33.userapi.com/c9314/v9314183/14c5/IrwmqSK2qUw.jpg" tvg-id="" tvg-name="Радио_Аккорд" url="RadioAkkord.ru" group-title="TOP List", Radio Akkord (96k)
+#-X- EXTINF:0 tvg-logo="https://sun9-33.userapi.com/c9314/v9314183/14c5/IrwmqSK2qUw.jpg" tvg-id="" tvg-name="Радио_Аккорд" url="VK.com/clubradioakkord" group-title="TOP List", Radio Akkord (96k)
 #--- http://a6.radioheart.ru:8007/RH52035
 #EXTINF:0 tvg-logo="http://s5.uploads.ru/t/j4NJe.jpg" tvg-id="" tvg-name="Rock_TV" url="RockFM.ro/rocktv" group-title="TOP List", Rock TV (ro m3u8)
 https://tv.broadcasting.ro/rocktv/85c83a80-4f71-4f2d-a8d6-43f676896bcb_output_0.m3u8
@@ -1249,15 +1251,15 @@ https://flu.vtv.by/tvt-non-by/playlist.m3u8
 #--- http://93.125.125.250:32100/MinskTV/playlist.m3u8
 #EXTINF:0 tvg-logo="https://i.ibb.co/PgkpS5N/zero.png" group-title="GG & CC", = = = = = = GG & CC = = = = = = = = = = = = 
 https://sochisu.github.io/htm5
-#EXTINF:0 tvg-logo="https://i.ibb.co/Z65br8g/Kinozal.png" tvg-id="no_epg_cinema" tvg-name="NO_EPG_Cinema" group-title="GG & CC", 1FILMAX HD (m3u8) GG/Gamepax
+#-X- EXTINF:0 tvg-logo="https://i.ibb.co/Z65br8g/Kinozal.png" tvg-id="no_epg_cinema" tvg-name="NO_EPG_Cinema" group-title="GG & CC", 1FILMAX HD (m3u8) GG/Gamepax
 #EXTVLCOPT:http-user-agent=SmartSDK
-http://hlss.goodgame.ru/hls/204708.m3u8
-#EXTINF:0 tvg-logo="https://i.ibb.co/Z65br8g/Kinozal.png" tvg-id="no_epg_cinema" tvg-name="NO_EPG_Cinema" group-title="GG & CC", 1FILMAX (480p m3u8)
+#--- http://hlss.goodgame.ru/hls/204708.m3u8
+#-X- EXTINF:0 tvg-logo="https://i.ibb.co/Z65br8g/Kinozal.png" tvg-id="no_epg_cinema" tvg-name="NO_EPG_Cinema" group-title="GG & CC", 1FILMAX (480p m3u8)
 #EXTVLCOPT:http-user-agent=SmartSDK
-http://hlss.goodgame.ru/hls/204708_480.m3u8
-#EXTINF:0 tvg-logo="https://i.ibb.co/Z65br8g/Kinozal.png" tvg-id="no_epg_cinema" tvg-name="NO_EPG_Cinema" group-title="GG & CC", 2FILMAX HD (m3u8) GG/FoxFun
+#--- http://hlss.goodgame.ru/hls/204708_480.m3u8
+#-X- EXTINF:0 tvg-logo="https://i.ibb.co/Z65br8g/Kinozal.png" tvg-id="no_epg_cinema" tvg-name="NO_EPG_Cinema" group-title="GG & CC", 2FILMAX HD (m3u8) GG/FoxFun
 #EXTVLCOPT:http-user-agent=SmartSDK
-http://hlss.goodgame.ru/hls/204717.m3u8
+#--- http://hlss.goodgame.ru/hls/204717.m3u8
 #--- http://hlss.goodgame.ru/hls/204717_480.m3u8
 #-X- EXTINF:0 tvg-logo="https://i.ibb.co/Z65br8g/Kinozal.png" tvg-id="no_epg_cinema" tvg-name="NO_EPG_Cinema" group-title="GG & CC", PZN Streams HD (m3u8) GG/PZN_Films
 #EXTVLCOPT:http-user-agent=SmartSDK
@@ -1265,9 +1267,9 @@ http://hlss.goodgame.ru/hls/204717.m3u8
 #--- http://cdnhls.goodgame.ru/hls/180960.m3u8
 #--- http://hlss.goodgame.ru/hls/180960_480.m3u8 (480p m3u8) VK.com/PZNstreams
 #--- http://cdnhls.goodgame.ru/hls/180960_480.m3u8
-#-X- EXTINF:0 tvg-logo="https://i.ibb.co/Z65br8g/Kinozal.png" tvg-id="no_epg_cinema" tvg-name="NO_EPG_Cinema" group-title="GG & CC", Akudji TV HD (m3u8) VK.com/Akudji2TV
+#EXTINF:0 tvg-logo="https://i.ibb.co/Z65br8g/Kinozal.png" tvg-id="no_epg_cinema" tvg-name="NO_EPG_Cinema" group-title="GG & CC", Akudji TV HD (m3u8) VK.com/Akudji2TV
 #EXTVLCOPT:http-user-agent=SmartSDK
-#--- http://hls.goodgame.ru/hls/5346.m3u8
+http://hls.goodgame.ru/hls/5346.m3u8
 #--- http://hls.goodgame.ru/hls/5346_480.m3u8 GG/Akudji
 #--- http://stream1.cybergame.tv:8080/live/akudjio.m3u8
 #-X- EXTINF:0 tvg-logo="https://i.ibb.co/Z65br8g/Kinozal.png" tvg-id="no_epg_cinema" tvg-name="NO_EPG_Cinema" group-title="GG & CC", Видеокассета VHS (m3u8) VK.com/vhs90e
@@ -1996,7 +1998,7 @@ http://sirius.greenhosting.ru/Kino24Ru/video.m3u8
 #--- http://85.192.10.131/hls/Kino24Ru/playlist.m3u8
 #EXTINF:0 tvg-logo="https://i.ibb.co/BTdFTbw/TV-XXI.png" tvg-id="tvxxi" tvg-name="TV_XXI" group-title="UDP Proxy", ТВ XXI (>m3u8)
 javascript:'http://cdntvpotok.com/onnet/tvxxi.php'.httpGet({headers:{'Referer':'http://only-tv.org/'}}).match(/file:"(.*?)"/)[1]
-#EXTINF:0 tvg-logo="https://i.ibb.co/BTdFTbw/TV-XXI.png" tvg-id="tvxxi" tvg-name="TV_XXI" group-title="UDP Proxy", ТВ XXI HD (Ym3u8
+#EXTINF:0 tvg-logo="https://i.ibb.co/BTdFTbw/TV-XXI.png" tvg-id="tvxxi" tvg-name="TV_XXI" group-title="UDP Proxy", ТВ XXI HD (Ym3u8)
 #EXTVLCOPT:http-user-agent=Dalvik/2.1.0
 https://strm.yandex.ru/kal/tv_21_belarus/tv_21_belarus0.m3u8
 #EXTINF:0 tvg-logo="https://i.ibb.co/BTdFTbw/TV-XXI.png" tvg-id="tvxxi" tvg-name="TV_XXI" group-title="UDP Proxy", ТВ XXI (m3u8)
@@ -2384,9 +2386,9 @@ http://91.205.165.11:22888/play/58/index.m3u8
 #--- http://194.9.27.164:8100/play/МАТЧ!_ФУТБОЛ_2/index.m3u8
 #--- http://45.88.104.104:80/play/957/video.m3u8
 #--- http://45.159.16.20:8000/play/a030
-#EXTINF:0 tvg-id="match-football2" tvg-name="Матч!_Футбол_2" group-title="Sport TV", Матч! Футбол 2 (m3u8)
-https://bal.varcdn.top/m2/tracks-v1a1/mono.m3u8
-#+++ https://e3.varcdn.top/m2/index.m3u8
+#-X- EXTINF:0 tvg-id="match-football2" tvg-name="Матч!_Футбол_2" group-title="Sport TV", Матч! Футбол 2 (m3u8)
+#--- https://bal.varcdn.top/m2/tracks-v1a1/mono.m3u8
+#--- https://e3.varcdn.top/m2/index.m3u8
 #--- http://92.100.39.32:2289/play/a07g/index.m3u8 (Tm3u8)
 #--- http://bl.uma.media/live/126864/HLS/4614144_3/2/1/playlist.m3u8 (720p Rm3u8)
 #--- http://bl.uma.media/live/126864/HLS/1153024_1/2/1/playlist.m3u8 (360p Rm3u8)
